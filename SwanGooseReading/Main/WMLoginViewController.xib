@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WMLoginViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_bg" translatesAutoresizingMaskIntoConstraints="NO" id="XJi-E6-D7F">
+                    <rect key="frame" x="-1" y="-1" width="377" height="669"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="teE-9j-aPB">
+                    <rect key="frame" x="100.5" y="50" width="174" height="135.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="teE-9j-aPB" secondAttribute="height" multiplier="348:271" id="0SR-zC-9dv"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XJi-E6-D7F" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-1" id="4Jx-xD-t6f"/>
+                <constraint firstAttribute="trailing" secondItem="XJi-E6-D7F" secondAttribute="trailing" constant="-1" id="8y2-D6-Osx"/>
+                <constraint firstItem="XJi-E6-D7F" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-1" id="FOj-g4-Jc9"/>
+                <constraint firstItem="teE-9j-aPB" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="IqC-rv-Ufd"/>
+                <constraint firstItem="teE-9j-aPB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="bNa-h1-87h"/>
+                <constraint firstAttribute="bottom" secondItem="XJi-E6-D7F" secondAttribute="bottom" constant="-1" id="szx-9F-eKH"/>
+            </constraints>
+            <point key="canvasLocation" x="-86" y="86"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="login_bg" width="375" height="667"/>
+        <image name="logo" width="174" height="135"/>
+    </resources>
+</document>

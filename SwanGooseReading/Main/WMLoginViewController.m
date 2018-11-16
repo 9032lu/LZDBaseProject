@@ -14,9 +14,10 @@
 @interface WMLoginViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *userName;
 @property (weak, nonatomic) IBOutlet UITextField *password;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *viewCenterConstant;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *logoTopConstant;
-@property (weak, nonatomic) IBOutlet UIButton *remberBtn;
+@property (weak, nonatomic) IBOutlet UIButton *registBtn;
+@property (weak, nonatomic) IBOutlet UIButton *forgetBtn;
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
+
 
 @end
 
@@ -27,6 +28,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self.userName setValue:[UIColor lightGrayColor] forKeyPath:@"_placeholderLabel.textColor"];
     [self.password setValue:[UIColor lightGrayColor] forKeyPath:@"_placeholderLabel.textColor"];
+    self.forgetBtn.titleLabel.font = self.registBtn.titleLabel.font = BMsmallFont;
+    self.loginBtn.titleLabel.font = [UIFont systemFontOfSize:15*fontScale];
     NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
 
     if ([[userDefault objectForKey:@"login"] boolValue]) {
@@ -37,10 +40,7 @@
         _userName.text =   _password.text = @"";
     }
     
-//
-//    [userDefault setValue:_userName.text forKey:@"LZDUserName"];
-//    [userDefault setValue:_password.text forKey:@"LZDPassWord"];
-    
+ 
     
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
@@ -86,14 +86,14 @@
                 
                 [userDefault synchronize];
                 
-                if (self.remberBtn.isSelected) {
-                    [userDefault setBool:YES forKey:@"login"];
-                    
-                    [userDefault setValue:weakSelf.userName.text forKey:@"LZDUserName"];
-                    [userDefault setValue:weakSelf.password.text forKey:@"LZDPassWord"];
-
-
-                }
+//                if (self.remberBtn.isSelected) {
+//                    [userDefault setBool:YES forKey:@"login"];
+//
+//                    [userDefault setValue:weakSelf.userName.text forKey:@"LZDUserName"];
+//                    [userDefault setValue:weakSelf.password.text forKey:@"LZDPassWord"];
+//
+//
+//                }
                 
                
                 [MBManager showBriefAlert:@"登录成功！" inView:self.view.window];
@@ -125,6 +125,8 @@
         }];
     }
     
+}
+- (IBAction)registBtnClick:(UIButton *)sender {
 }
 
 //忘记密码

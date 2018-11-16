@@ -1,2 +1,1 @@
-# LZD-
-LZD基础项目
+# SwanGooseReading

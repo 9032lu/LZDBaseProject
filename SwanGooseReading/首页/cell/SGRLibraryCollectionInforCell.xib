@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SGRLibraryCollectionInforCell" rowHeight="246" id="KGk-i7-Jjw" customClass="SGRLibraryCollectionInforCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="145.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7Qo-uU-7ya">
+                        <rect key="frame" x="15" y="15" width="225" height="115.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分馆位置:北区社科流通库" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cte-4z-21g">
+                                <rect key="frame" x="0.0" y="0.0" width="225" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="馆藏地:505架4层" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSP-9F-zpD">
+                                <rect key="frame" x="0.0" y="50" width="225" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="馆藏号:6523721" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJQ-BY-ys9">
+                                <rect key="frame" x="0.0" y="99.5" width="225" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="在馆" translatesAutoresizingMaskIntoConstraints="NO" id="JGc-wS-gur">
+                        <rect key="frame" x="240" y="44" width="62" height="58"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="62" id="6ln-hk-2Bg"/>
+                            <constraint firstAttribute="height" constant="58" id="Csm-L6-enT"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Sh-Wb-5Y6">
+                        <rect key="frame" x="15" y="144.5" width="305" height="1"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="ObZ-ea-bTl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="6Sh-Wb-5Y6" secondAttribute="trailing" id="5Ez-aM-wKV"/>
+                    <constraint firstAttribute="bottom" secondItem="6Sh-Wb-5Y6" secondAttribute="bottom" id="HZX-cC-KP0"/>
+                    <constraint firstItem="6Sh-Wb-5Y6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="OEC-Jq-9sh"/>
+                    <constraint firstAttribute="bottom" secondItem="7Qo-uU-7ya" secondAttribute="bottom" constant="15" id="Sjp-ZG-Yhg"/>
+                    <constraint firstItem="7Qo-uU-7ya" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="beK-L9-xdx"/>
+                    <constraint firstAttribute="trailing" secondItem="JGc-wS-gur" secondAttribute="trailing" constant="18" id="cuf-eS-5AR"/>
+                    <constraint firstItem="JGc-wS-gur" firstAttribute="leading" secondItem="7Qo-uU-7ya" secondAttribute="trailing" id="eVY-Ct-oTT"/>
+                    <constraint firstItem="JGc-wS-gur" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sbK-d9-Vlx"/>
+                    <constraint firstItem="7Qo-uU-7ya" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="xoc-vG-g7e"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="address" destination="Cte-4z-21g" id="Vh5-rK-JID"/>
+                <outlet property="collectionCode" destination="ZJQ-BY-ys9" id="i9j-vT-A5l"/>
+                <outlet property="detailAddress" destination="NSP-9F-zpD" id="0YN-cW-Ile"/>
+                <outlet property="stateImg" destination="JGc-wS-gur" id="qCG-Jz-B9f"/>
+            </connections>
+            <point key="canvasLocation" x="177.59999999999999" y="-48.575712143928037"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="在馆" width="62" height="57"/>
+    </resources>
+</document>

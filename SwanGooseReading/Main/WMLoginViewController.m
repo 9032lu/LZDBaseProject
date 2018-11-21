@@ -9,6 +9,8 @@
 #import "WMLoginViewController.h"
 #import "WMTabbarController.h"
 //#import "WMForgetViewController.h"
+#import "SGRRegistViewController.h"
+
 #import "sys/utsname.h"
 #import "MD5Tool.h"
 @interface WMLoginViewController ()
@@ -23,13 +25,22 @@
 
 @implementation WMLoginViewController
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.navigationController.navigationBarHidden = YES;
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    self.navigationController.navigationBarHidden = NO;
+
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    [self.userName setValue:[UIColor lightGrayColor] forKeyPath:@"_placeholderLabel.textColor"];
-    [self.password setValue:[UIColor lightGrayColor] forKeyPath:@"_placeholderLabel.textColor"];
+    [self.userName setValue:[UIColor whiteColor] forKeyPath:@"_placeholderLabel.textColor"];
+    [self.password setValue:[UIColor whiteColor] forKeyPath:@"_placeholderLabel.textColor"];
     self.forgetBtn.titleLabel.font = self.registBtn.titleLabel.font = BMsmallFont;
-    self.loginBtn.titleLabel.font = [UIFont systemFontOfSize:15*fontScale];
+    self.loginBtn.titleLabel.font = BMNormalFont;
     NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
 
     if ([[userDefault objectForKey:@"login"] boolValue]) {
@@ -50,6 +61,7 @@
 //登录
 - (IBAction)login:(id)sender {
     
+    return;
     MJWeakSelf
     if ([self judgeTextField]){
         
@@ -127,10 +139,15 @@
     
 }
 - (IBAction)registBtnClick:(UIButton *)sender {
+    PUSH(SGRRegistViewController)
+    vc.formType = LOGINFROMTYPE_regist;
+    
 }
 
 //忘记密码
 - (IBAction)forgetPassword:(id)sender {
+    PUSH(SGRRegistViewController)
+    vc.formType = LOGINFROMTYPE_RetrievePassword;
     
 //    WMForgetViewController *forgetVC = [[WMForgetViewController alloc]init];
 //    [self presentViewController:forgetVC animated:YES completion:nil];

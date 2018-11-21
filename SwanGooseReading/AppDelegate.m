@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "WMTabbarController.h"
 #import "WMLoginViewController.h"
-
+#import "WMNavigationViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -38,13 +38,15 @@
     
     
     BOOL isLogin = [[NSUserDefaults standardUserDefaults] boolForKey:@"login"];
+    isLogin = YES;
     if (isLogin) {//已登录
         WMTabbarController *tabBarVC = [[WMTabbarController alloc]init];
         self.window.rootViewController = tabBarVC;
     }else{
         
         WMLoginViewController *logVC = [[WMLoginViewController alloc]initWithNibName:@"WMLoginViewController" bundle:nil];
-        self.window.rootViewController = logVC;
+        WMNavigationViewController *NAV = [[WMNavigationViewController alloc]initWithRootViewController:logVC];
+        self.window.rootViewController = NAV;
         
     }
     

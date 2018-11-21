@@ -25,8 +25,13 @@
 #import "Manager.h"
 #import "ReactiveObjC.h"
 #import "WMCommentMethod.h"
+#import "LZDEnum.h"
+#import "XLsn0wLoop.h"
+#import "LZDButton.h"
+#import "NSString+Helper.h"
+#import "SGQRCodeTool.h"
 
-//#import "TopUpVC.h"
+#import "TopUpVC.h"
 #import "BRPlaceholderTextView.h"
 #import "UIView+Extension.h"
 

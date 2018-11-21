@@ -8,6 +8,8 @@
 
 #import "WMTabbarController.h"
 #import "WMNavigationViewController.h"
+#import "SGRMineViewController.h"
+#import "SGRHomeViewController.h"
 
 
 @interface WMTabbarController ()
@@ -18,9 +20,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.tabBar.backgroundImage = [self imageWithColor:RGBA(1.0, 1.0, 1.0, 0.0)];
-    self.tabBar.shadowImage = [UIImage new];
-    
+//    self.tabBar.backgroundImage = [self imageWithColor:RGBA(1.0, 1.0, 1.0, 0.0)];
+//    self.tabBar.shadowImage = [UIImage new];
+//    [[UITabBar appearance] setTranslucent:NO];
+    self.tabBar.translucent = NO;
     [self addControllers];
     
 }
@@ -31,7 +34,7 @@
 -(void)addChildVc:(UIViewController *)chiledVC Withtitle:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage{
     
     chiledVC.tabBarItem.title = title;
-    [chiledVC.tabBarController.tabBar setTintColor:[UIColor clearColor]];
+//    [chiledVC.tabBarController.tabBar setTintColor:[UIColor clearColor]];
 //    chiledVC.navigationItem.title = title;
     chiledVC.tabBarItem.image = [[UIImage imageNamed:image] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     chiledVC.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
@@ -39,7 +42,7 @@
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
     textAttrs[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
     NSMutableDictionary *selectedTextAttrs = [NSMutableDictionary dictionary];
-    selectedTextAttrs[NSForegroundColorAttributeName] = [UIColor whiteColor];
+    selectedTextAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
     [chiledVC.tabBarItem setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
     [chiledVC.tabBarItem setTitleTextAttributes:selectedTextAttrs forState:UIControlStateSelected];
     // 创建并添加导航控制器
@@ -48,11 +51,11 @@
 }
 - (void)addControllers{
 
-//    WMBookViewController *bookVC = [[WMBookViewController alloc]init];
-//    [self addChildVc:bookVC Withtitle:@"" image:@"图书" selectedImage:@"图书2"];
-//
-//    WMSpaceViewController *spaceVC = [[WMSpaceViewController alloc]init];
-//    [self addChildVc:spaceVC Withtitle:@"" image:@"空间" selectedImage:@"空间2"];
+    SGRHomeViewController *bookVC = [[SGRHomeViewController alloc]init];
+    [self addChildVc:bookVC Withtitle:@"首页" image:@"home-0" selectedImage:@"home-1"];
+
+    SGRMineViewController *spaceVC = [[SGRMineViewController alloc]init];
+    [self addChildVc:spaceVC Withtitle:@"我的" image:@"mine-0" selectedImage:@"mine-1"];
 //
 //    WMScanViewController *scanVC = [[WMScanViewController alloc]init];
 //    [self addChildVc:scanVC Withtitle:nil image:@"scanIcon" selectedImage:@"scanIcon"];

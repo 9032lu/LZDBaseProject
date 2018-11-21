@@ -10,6 +10,7 @@
 #define Utils_h
 
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1]
 
 #define UIColorFromHex(s) [UIColor colorWithRed:(((s & 0xFF0000) >> 16))/255.0 green:(((s &0xFF00) >>8))/255.0 blue:((s &0xFF))/255.0 alpha:1.0]
 
@@ -18,9 +19,23 @@
 #define largeFont [UIFont systemFontOfSize:20 * fontScale]
 #define BMTitleFont [UIFont systemFontOfSize:18 * fontScale]
 #define BMNormalFont [UIFont systemFontOfSize:16 * fontScale]
+#define BMFifteenFont [UIFont systemFontOfSize:16 * fontScale]
+
 #define BMsmallFont [UIFont systemFontOfSize:14 * fontScale]
 #define SAMCHAIN_SERVE @"com.swanGooseReading.www"
 #define SAMCHAIN_UUID  @"uuid"
+
+#define LZDMainColor  RGB(194,31,24)
+
+#define  SETTitleTextColorFont  [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:largeFont,NSForegroundColorAttributeName:RGB(255,255,255)}];
+
+//真机还是模拟器
+#if TARGET_IPHONE_SIMULATOR
+#define SIMULATOR 1
+#elif TARGET_OS_IPHONE
+#define SIMULATOR 0
+#endif
+
 
 #define ScreenWidth   [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight   [UIScreen mainScreen].bounds.size.height
@@ -97,9 +112,6 @@ NSLog(@"%@第%d行:%@\n---------------------------",[[NSString stringWithFormat:
 #define  URLHeader   @"http://t1.beijingzhangtu.com/"
 
 #endif
-
-
-
 
 
 /**

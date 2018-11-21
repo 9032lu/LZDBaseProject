@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SGRHomeViewController">
+            <connections>
+                <outlet property="bottomConstanst" destination="CS1-ho-DZi" id="4zi-6g-Luy"/>
+                <outlet property="loopView" destination="vK9-Zb-Rbc" id="yDX-sc-jKt"/>
+                <outlet property="tableView" destination="6Ql-gF-Bsb" id="WBP-gr-3u2"/>
+                <outlet property="topConstant" destination="sXn-9r-2Pc" id="zFc-17-ZmH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="200" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="6Ql-gF-Bsb">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="cso-Dc-6b8"/>
+                        <outlet property="delegate" destination="-1" id="dnc-dI-UE3"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="6Ql-gF-Bsb" secondAttribute="trailing" id="4Yo-EY-UN6"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="6Ql-gF-Bsb" secondAttribute="bottom" id="CS1-ho-DZi"/>
+                <constraint firstItem="6Ql-gF-Bsb" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="aGv-4x-WLg"/>
+                <constraint firstItem="6Ql-gF-Bsb" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="sXn-9r-2Pc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-150" y="15"/>
+        </view>
+        <view contentMode="scaleToFill" id="vK9-Zb-Rbc" customClass="XLsn0wLoop">
+            <rect key="frame" x="0.0" y="0.0" width="495" height="243"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="2jw-nP-iwT"/>
+            <point key="canvasLocation" x="352.80000000000001" y="-127.28635682158921"/>
+        </view>
+    </objects>
+</document>

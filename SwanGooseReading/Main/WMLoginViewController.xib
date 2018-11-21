@@ -64,13 +64,13 @@
                                 <constraint firstAttribute="width" constant="12" id="nx8-ud-KCD"/>
                             </constraints>
                         </imageView>
-                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="请输入登录密码" placeholder="请输入登录密码" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MfP-eb-ILu">
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入登录密码" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MfP-eb-ILu">
                             <rect key="frame" x="57" y="76" width="244" height="17"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
-                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="请输入手机账号" placeholder="请输入手机账号" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="13Q-Jq-bng">
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入手机账号" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="13Q-Jq-bng">
                             <rect key="frame" x="57" y="22" width="244" height="17"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -147,7 +147,7 @@
                 <constraint firstItem="8Rk-9j-U8R" firstAttribute="leading" secondItem="gNG-MK-pMf" secondAttribute="leading" id="qN5-W8-eVl"/>
                 <constraint firstAttribute="bottom" secondItem="XJi-E6-D7F" secondAttribute="bottom" id="szx-9F-eKH"/>
             </constraints>
-            <point key="canvasLocation" x="121" y="-217"/>
+            <point key="canvasLocation" x="-433" y="-317"/>
         </view>
     </objects>
     <resources>

@@ -33,7 +33,7 @@
 @implementation SGScanningQRCodeView
 
 /** 扫描动画线(冲击波) 的高度 */
-static CGFloat const animation_line_H = 12;
+static CGFloat const animation_line_H = 2;
 /** 扫描内容外部View的alpha值 */
 static CGFloat const scanBorderOutsideViewAlpha = 0.4;
 /** 定时器和动画的时间 */
@@ -70,7 +70,7 @@ static CGFloat const timer_animation_Duration = 0.05;
     // 扫描动画添加
     self.animation_line = [[UIImageView alloc] init];
     _animation_line.image = [UIImage imageNamed:@"QRCodeLine"];
-    _animation_line.frame = CGRectMake(scanContent_X * 0.5, scanContent_layerY, self.frame.size.width - scanContent_X , animation_line_H);
+    _animation_line.frame = CGRectMake(scanContent_layerX, scanContent_layerY, scanContent_layerW , animation_line_H);
     [self.basedLayer addSublayer:_animation_line.layer];
     
     // 添加定时器
@@ -128,7 +128,7 @@ static CGFloat const timer_animation_Duration = 0.05;
     promptLabel.textAlignment = NSTextAlignmentCenter;
     promptLabel.font = [UIFont boldSystemFontOfSize:13.0];
     promptLabel.textColor = [[UIColor whiteColor] colorWithAlphaComponent:0.6];
-    promptLabel.text = @"将二维码/条码放入框内, 即可自动扫描";
+    promptLabel.text = @"将图书ISBN码放入框内, 即可自动扫描";
     [self addSubview:promptLabel];
     
     // 添加闪光灯按钮
@@ -144,13 +144,14 @@ static CGFloat const timer_animation_Duration = 0.05;
     light_button.titleLabel.font = BMNormalFont;
     
     [light_button addTarget:self action:@selector(light_buttonAction:) forControlEvents:UIControlEventTouchUpInside];
-    [self addSubview:light_button];
+//    [self addSubview:light_button];
 
 #pragma mark - - - 扫描边角imageView的创建
     // 左上侧的image
-    CGFloat margin = 7;
-    
     UIImage *left_image = [UIImage imageNamed:@"QRCodeTopLeft"];
+
+    CGFloat margin = left_image.size.width * 0.5;
+    
     UIImageView *left_imageView = [[UIImageView alloc] init];
     CGFloat left_imageViewX = CGRectGetMinX(scanContent_layer.frame) - left_image.size.width * 0.5 + margin;
     CGFloat left_imageViewY = CGRectGetMinY(scanContent_layer.frame) - left_image.size.width * 0.5 + margin;

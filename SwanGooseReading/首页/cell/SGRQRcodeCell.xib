@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SGRQRcodeCell" rowHeight="153" id="KGk-i7-Jjw" customClass="SGRQRcodeCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="152.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4D-9g-mjQ">
+                        <rect key="frame" x="130" y="15" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" priority="999" constant="60" id="KII-dn-IQE"/>
+                            <constraint firstAttribute="width" secondItem="J4D-9g-mjQ" secondAttribute="height" multiplier="1:1" id="YeM-kP-4ui"/>
+                        </constraints>
+                        <state key="normal" image="scancode"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="扫ISBN借书" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oip-Tj-m7m">
+                        <rect key="frame" x="122.5" y="83" width="75" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oip-Tj-m7m" firstAttribute="top" secondItem="J4D-9g-mjQ" secondAttribute="bottom" constant="8" id="46U-jt-7zb"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oip-Tj-m7m" secondAttribute="bottom" constant="15" id="4nd-Bp-sr0"/>
+                    <constraint firstItem="J4D-9g-mjQ" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="JZp-ja-nmd"/>
+                    <constraint firstItem="oip-Tj-m7m" firstAttribute="centerX" secondItem="J4D-9g-mjQ" secondAttribute="centerX" id="erI-dr-tlW"/>
+                    <constraint firstItem="J4D-9g-mjQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="wAa-p4-N23"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="lab" destination="oip-Tj-m7m" id="fFy-Ko-Q2U"/>
+                <outlet property="scanBtnWidth" destination="KII-dn-IQE" id="Wtf-lM-6di"/>
+                <outlet property="scanCodeBtn" destination="J4D-9g-mjQ" id="3Ve-we-Z4I"/>
+            </connections>
+            <point key="canvasLocation" x="147" y="12"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="scancode" width="89" height="89"/>
+    </resources>
+</document>

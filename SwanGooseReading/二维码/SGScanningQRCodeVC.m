@@ -35,10 +35,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [self.navigationController.navigationBar setTitleTextAttributes:
-     @{NSFontAttributeName:largeFont,
-       NSForegroundColorAttributeName:ZTBTNCOLOR}];
-   
+//    [self.navigationController.navigationBar setTitleTextAttributes:
+//     @{NSFontAttributeName:largeFont,
+//       NSForegroundColorAttributeName:ZTBTNCOLOR}];
+//
 
 //    self.tabBarController.tabBar.hidden = YES;
     
@@ -50,8 +50,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"扫一扫";
-   
+    self.navigationItem.title = @"扫ISNB借书";
+   SETTitleTextColorFont
     
     // 创建扫描边框
   

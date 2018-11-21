@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1B80E621A3FF4000FB4CD0 /* SGRSettlementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B80E421A3FF4000FB4CD0 /* SGRSettlementViewController.m */; };
+		3C1B80E721A3FF4000FB4CD0 /* SGRSettlementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C1B80E521A3FF4000FB4CD0 /* SGRSettlementViewController.xib */; };
+		3C1B80EF21A4FE7500FB4CD0 /* SGRUIImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B80EE21A4FE7500FB4CD0 /* SGRUIImagePickerController.m */; };
 		3C3CC64B219D1BF3007F7C44 /* WMTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CC647219D1BF3007F7C44 /* WMTabbarController.m */; };
 		3C3CC64C219D1BF3007F7C44 /* WMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CC648219D1BF3007F7C44 /* WMNavigationViewController.m */; };
 		3C3CC651219D1D11007F7C44 /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CC650219D1D11007F7C44 /* UIImage+Tool.m */; };
@@ -30,6 +33,14 @@
 		3C3CC693219D3D7C007F7C44 /* sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3C3CC692219D3D7C007F7C44 /* sound.caf */; };
 		3C3CC697219D3F14007F7C44 /* WMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3CC694219D3F13007F7C44 /* WMLoginViewController.xib */; };
 		3C3CC698219D3F14007F7C44 /* WMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CC696219D3F14007F7C44 /* WMLoginViewController.m */; };
+		3C3CC69D219E5528007F7C44 /* SGRRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CC69B219E5528007F7C44 /* SGRRegistViewController.m */; };
+		3C3CC69E219E5528007F7C44 /* SGRRegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3CC69C219E5528007F7C44 /* SGRRegistViewController.xib */; };
+		3C3CC6A3219E6FA9007F7C44 /* SGRBindCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CC6A1219E6FA9007F7C44 /* SGRBindCardViewController.m */; };
+		3C3CC6A4219E6FA9007F7C44 /* SGRBindCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3CC6A2219E6FA9007F7C44 /* SGRBindCardViewController.xib */; };
+		3C3CC6A8219E76F7007F7C44 /* SGRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CC6A6219E76F7007F7C44 /* SGRHomeViewController.m */; };
+		3C3CC6A9219E76F7007F7C44 /* SGRHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3CC6A7219E76F7007F7C44 /* SGRHomeViewController.xib */; };
+		3C3CC6AD219E770D007F7C44 /* SGRMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CC6AB219E770D007F7C44 /* SGRMineViewController.m */; };
+		3C3CC6AE219E770D007F7C44 /* SGRMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3CC6AC219E770D007F7C44 /* SGRMineViewController.xib */; };
 		3CEDCF52219D14FC00019CB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDCF51219D14FC00019CB5 /* AppDelegate.m */; };
 		3CEDCF55219D14FC00019CB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDCF54219D14FC00019CB5 /* ViewController.m */; };
 		3CEDCF58219D14FC00019CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CEDCF56219D14FC00019CB5 /* Main.storyboard */; };
@@ -38,6 +49,40 @@
 		3CEDCF60219D14FD00019CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDCF5F219D14FD00019CB5 /* main.m */; };
 		3CEDCF6A219D14FD00019CB5 /* SwanGooseReadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDCF69219D14FD00019CB5 /* SwanGooseReadingTests.m */; };
 		3CEDCF75219D14FD00019CB5 /* SwanGooseReadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEDCF74219D14FD00019CB5 /* SwanGooseReadingUITests.m */; };
+		3CEE00E7219EB932006503C5 /* SGRBorrowedBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE00E5219EB932006503C5 /* SGRBorrowedBookViewController.m */; };
+		3CEE00E8219EB932006503C5 /* SGRBorrowedBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE00E6219EB932006503C5 /* SGRBorrowedBookViewController.xib */; };
+		3CEE00ED219EB9C3006503C5 /* SGRBorrowedBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE00EB219EB9C3006503C5 /* SGRBorrowedBookCell.m */; };
+		3CEE00EE219EB9C3006503C5 /* SGRBorrowedBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE00EC219EB9C3006503C5 /* SGRBorrowedBookCell.xib */; };
+		3CEE00F2219EBF70006503C5 /* SGRSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE00F0219EBF70006503C5 /* SGRSettingViewController.m */; };
+		3CEE00F3219EBF70006503C5 /* SGRSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE00F1219EBF70006503C5 /* SGRSettingViewController.xib */; };
+		3CEE00F7219EC738006503C5 /* SGRSetNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE00F5219EC738006503C5 /* SGRSetNickNameViewController.m */; };
+		3CEE00F8219EC738006503C5 /* SGRSetNickNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE00F6219EC738006503C5 /* SGRSetNickNameViewController.xib */; };
+		3CEE00FC21A244DC006503C5 /* SGRSetNewPassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE00FA21A244DC006503C5 /* SGRSetNewPassWordViewController.m */; };
+		3CEE00FD21A244DC006503C5 /* SGRSetNewPassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE00FB21A244DC006503C5 /* SGRSetNewPassWordViewController.xib */; };
+		3CEE010021A24AA9006503C5 /* TopUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE00FE21A24AA8006503C5 /* TopUpVC.m */; };
+		3CEE010421A252F9006503C5 /* SGRSetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE010221A252F9006503C5 /* SGRSetTableViewCell.m */; };
+		3CEE010521A252F9006503C5 /* SGRSetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE010321A252F9006503C5 /* SGRSetTableViewCell.xib */; };
+		3CEE010821A25DA7006503C5 /* XLsn0wLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE010721A25DA7006503C5 /* XLsn0wLoop.m */; };
+		3CEE010C21A25E4E006503C5 /* SGRBorrowHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE010A21A25E4E006503C5 /* SGRBorrowHistoryViewController.m */; };
+		3CEE010D21A25E4E006503C5 /* SGRBorrowHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE010B21A25E4E006503C5 /* SGRBorrowHistoryViewController.xib */; };
+		3CEE011121A25F93006503C5 /* SGRBorrowHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE010F21A25F93006503C5 /* SGRBorrowHistoryCell.m */; };
+		3CEE011221A25F93006503C5 /* SGRBorrowHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE011021A25F93006503C5 /* SGRBorrowHistoryCell.xib */; };
+		3CEE011721A26AD1006503C5 /* SGRQRcodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE011521A26AD1006503C5 /* SGRQRcodeCell.m */; };
+		3CEE011821A26AD1006503C5 /* SGRQRcodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE011621A26AD1006503C5 /* SGRQRcodeCell.xib */; };
+		3CEE011B21A282F9006503C5 /* SGRHomeSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE011A21A282F9006503C5 /* SGRHomeSectionHeaderView.m */; };
+		3CEE011F21A296BC006503C5 /* SGRHtmlDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE011D21A296BC006503C5 /* SGRHtmlDetailViewController.m */; };
+		3CEE012421A2AE4C006503C5 /* SGRHotSearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE012221A2AE4C006503C5 /* SGRHotSearchListViewController.m */; };
+		3CEE012521A2AE4C006503C5 /* SGRHotSearchListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE012321A2AE4C006503C5 /* SGRHotSearchListViewController.xib */; };
+		3CEE012921A39B99006503C5 /* SGRSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE012721A39B99006503C5 /* SGRSearchResultViewController.m */; };
+		3CEE012A21A39B99006503C5 /* SGRSearchResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE012821A39B99006503C5 /* SGRSearchResultViewController.xib */; };
+		3CEE012E21A3A4EF006503C5 /* SGRBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE012C21A3A4EF006503C5 /* SGRBookDetailViewController.m */; };
+		3CEE012F21A3A4EF006503C5 /* SGRBookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE012D21A3A4EF006503C5 /* SGRBookDetailViewController.xib */; };
+		3CEE013321A3A6F3006503C5 /* SGRBookHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE013121A3A6F3006503C5 /* SGRBookHeaderCell.m */; };
+		3CEE013421A3A6F3006503C5 /* SGRBookHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE013221A3A6F3006503C5 /* SGRBookHeaderCell.xib */; };
+		3CEE013721A3AEB5006503C5 /* LZDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE013621A3AEB5006503C5 /* LZDButton.m */; };
+		3CEE013B21A3B2D8006503C5 /* SGRLibraryCollectionInforCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE013921A3B2D8006503C5 /* SGRLibraryCollectionInforCell.m */; };
+		3CEE013C21A3B2D8006503C5 /* SGRLibraryCollectionInforCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE013A21A3B2D8006503C5 /* SGRLibraryCollectionInforCell.xib */; };
+		3CEE013F21A3B9A8006503C5 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE013D21A3B9A7006503C5 /* NSString+Helper.m */; };
 		E87F30149989B8DCC123010F /* libPods-SwanGooseReading.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE50930A893B9B2AC41D8FC /* libPods-SwanGooseReading.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +104,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C1B80E321A3FF4000FB4CD0 /* SGRSettlementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRSettlementViewController.h; sourceTree = "<group>"; };
+		3C1B80E421A3FF4000FB4CD0 /* SGRSettlementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRSettlementViewController.m; sourceTree = "<group>"; };
+		3C1B80E521A3FF4000FB4CD0 /* SGRSettlementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRSettlementViewController.xib; sourceTree = "<group>"; };
+		3C1B80ED21A4FE7500FB4CD0 /* SGRUIImagePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRUIImagePickerController.h; sourceTree = "<group>"; };
+		3C1B80EE21A4FE7500FB4CD0 /* SGRUIImagePickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRUIImagePickerController.m; sourceTree = "<group>"; };
+		3C1B80F021A501F000FB4CD0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		3C1B80F121A501F000FB4CD0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		3C3CC645219D1989007F7C44 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3C3CC647219D1BF3007F7C44 /* WMTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTabbarController.m; sourceTree = "<group>"; };
 		3C3CC648219D1BF3007F7C44 /* WMNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNavigationViewController.m; sourceTree = "<group>"; };
@@ -105,6 +157,19 @@
 		3C3CC694219D3F13007F7C44 /* WMLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMLoginViewController.xib; sourceTree = "<group>"; };
 		3C3CC695219D3F14007F7C44 /* WMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLoginViewController.h; sourceTree = "<group>"; };
 		3C3CC696219D3F14007F7C44 /* WMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLoginViewController.m; sourceTree = "<group>"; };
+		3C3CC69A219E5528007F7C44 /* SGRRegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRRegistViewController.h; sourceTree = "<group>"; };
+		3C3CC69B219E5528007F7C44 /* SGRRegistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRRegistViewController.m; sourceTree = "<group>"; };
+		3C3CC69C219E5528007F7C44 /* SGRRegistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRRegistViewController.xib; sourceTree = "<group>"; };
+		3C3CC69F219E68E8007F7C44 /* LZDEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZDEnum.h; sourceTree = "<group>"; };
+		3C3CC6A0219E6FA9007F7C44 /* SGRBindCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRBindCardViewController.h; sourceTree = "<group>"; };
+		3C3CC6A1219E6FA9007F7C44 /* SGRBindCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRBindCardViewController.m; sourceTree = "<group>"; };
+		3C3CC6A2219E6FA9007F7C44 /* SGRBindCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRBindCardViewController.xib; sourceTree = "<group>"; };
+		3C3CC6A5219E76F7007F7C44 /* SGRHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRHomeViewController.h; sourceTree = "<group>"; };
+		3C3CC6A6219E76F7007F7C44 /* SGRHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRHomeViewController.m; sourceTree = "<group>"; };
+		3C3CC6A7219E76F7007F7C44 /* SGRHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRHomeViewController.xib; sourceTree = "<group>"; };
+		3C3CC6AA219E770D007F7C44 /* SGRMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRMineViewController.h; sourceTree = "<group>"; };
+		3C3CC6AB219E770D007F7C44 /* SGRMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRMineViewController.m; sourceTree = "<group>"; };
+		3C3CC6AC219E770D007F7C44 /* SGRMineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRMineViewController.xib; sourceTree = "<group>"; };
 		3CEDCF4D219D14FC00019CB5 /* SwanGooseReading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwanGooseReading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEDCF50219D14FC00019CB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CEDCF51219D14FC00019CB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,6 +186,60 @@
 		3CEDCF70219D14FD00019CB5 /* SwanGooseReadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwanGooseReadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEDCF74219D14FD00019CB5 /* SwanGooseReadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwanGooseReadingUITests.m; sourceTree = "<group>"; };
 		3CEDCF76219D14FD00019CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CEE00E4219EB932006503C5 /* SGRBorrowedBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRBorrowedBookViewController.h; sourceTree = "<group>"; };
+		3CEE00E5219EB932006503C5 /* SGRBorrowedBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRBorrowedBookViewController.m; sourceTree = "<group>"; };
+		3CEE00E6219EB932006503C5 /* SGRBorrowedBookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRBorrowedBookViewController.xib; sourceTree = "<group>"; };
+		3CEE00EA219EB9C3006503C5 /* SGRBorrowedBookCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRBorrowedBookCell.h; sourceTree = "<group>"; };
+		3CEE00EB219EB9C3006503C5 /* SGRBorrowedBookCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRBorrowedBookCell.m; sourceTree = "<group>"; };
+		3CEE00EC219EB9C3006503C5 /* SGRBorrowedBookCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRBorrowedBookCell.xib; sourceTree = "<group>"; };
+		3CEE00EF219EBF70006503C5 /* SGRSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRSettingViewController.h; sourceTree = "<group>"; };
+		3CEE00F0219EBF70006503C5 /* SGRSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRSettingViewController.m; sourceTree = "<group>"; };
+		3CEE00F1219EBF70006503C5 /* SGRSettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRSettingViewController.xib; sourceTree = "<group>"; };
+		3CEE00F4219EC738006503C5 /* SGRSetNickNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRSetNickNameViewController.h; sourceTree = "<group>"; };
+		3CEE00F5219EC738006503C5 /* SGRSetNickNameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRSetNickNameViewController.m; sourceTree = "<group>"; };
+		3CEE00F6219EC738006503C5 /* SGRSetNickNameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRSetNickNameViewController.xib; sourceTree = "<group>"; };
+		3CEE00F921A244DC006503C5 /* SGRSetNewPassWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRSetNewPassWordViewController.h; sourceTree = "<group>"; };
+		3CEE00FA21A244DC006503C5 /* SGRSetNewPassWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRSetNewPassWordViewController.m; sourceTree = "<group>"; };
+		3CEE00FB21A244DC006503C5 /* SGRSetNewPassWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRSetNewPassWordViewController.xib; sourceTree = "<group>"; };
+		3CEE00FE21A24AA8006503C5 /* TopUpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopUpVC.m; sourceTree = "<group>"; };
+		3CEE00FF21A24AA9006503C5 /* TopUpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopUpVC.h; sourceTree = "<group>"; };
+		3CEE010121A252F9006503C5 /* SGRSetTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRSetTableViewCell.h; sourceTree = "<group>"; };
+		3CEE010221A252F9006503C5 /* SGRSetTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRSetTableViewCell.m; sourceTree = "<group>"; };
+		3CEE010321A252F9006503C5 /* SGRSetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRSetTableViewCell.xib; sourceTree = "<group>"; };
+		3CEE010621A25DA7006503C5 /* XLsn0wLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wLoop.h; sourceTree = "<group>"; };
+		3CEE010721A25DA7006503C5 /* XLsn0wLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wLoop.m; sourceTree = "<group>"; };
+		3CEE010921A25E4E006503C5 /* SGRBorrowHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRBorrowHistoryViewController.h; sourceTree = "<group>"; };
+		3CEE010A21A25E4E006503C5 /* SGRBorrowHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRBorrowHistoryViewController.m; sourceTree = "<group>"; };
+		3CEE010B21A25E4E006503C5 /* SGRBorrowHistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRBorrowHistoryViewController.xib; sourceTree = "<group>"; };
+		3CEE010E21A25F93006503C5 /* SGRBorrowHistoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRBorrowHistoryCell.h; sourceTree = "<group>"; };
+		3CEE010F21A25F93006503C5 /* SGRBorrowHistoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRBorrowHistoryCell.m; sourceTree = "<group>"; };
+		3CEE011021A25F93006503C5 /* SGRBorrowHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRBorrowHistoryCell.xib; sourceTree = "<group>"; };
+		3CEE011421A26AD1006503C5 /* SGRQRcodeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRQRcodeCell.h; sourceTree = "<group>"; };
+		3CEE011521A26AD1006503C5 /* SGRQRcodeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRQRcodeCell.m; sourceTree = "<group>"; };
+		3CEE011621A26AD1006503C5 /* SGRQRcodeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRQRcodeCell.xib; sourceTree = "<group>"; };
+		3CEE011921A282F9006503C5 /* SGRHomeSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRHomeSectionHeaderView.h; sourceTree = "<group>"; };
+		3CEE011A21A282F9006503C5 /* SGRHomeSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRHomeSectionHeaderView.m; sourceTree = "<group>"; };
+		3CEE011C21A296BC006503C5 /* SGRHtmlDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRHtmlDetailViewController.h; sourceTree = "<group>"; };
+		3CEE011D21A296BC006503C5 /* SGRHtmlDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRHtmlDetailViewController.m; sourceTree = "<group>"; };
+		3CEE012121A2AE4C006503C5 /* SGRHotSearchListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRHotSearchListViewController.h; sourceTree = "<group>"; };
+		3CEE012221A2AE4C006503C5 /* SGRHotSearchListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRHotSearchListViewController.m; sourceTree = "<group>"; };
+		3CEE012321A2AE4C006503C5 /* SGRHotSearchListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRHotSearchListViewController.xib; sourceTree = "<group>"; };
+		3CEE012621A39B99006503C5 /* SGRSearchResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRSearchResultViewController.h; sourceTree = "<group>"; };
+		3CEE012721A39B99006503C5 /* SGRSearchResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRSearchResultViewController.m; sourceTree = "<group>"; };
+		3CEE012821A39B99006503C5 /* SGRSearchResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRSearchResultViewController.xib; sourceTree = "<group>"; };
+		3CEE012B21A3A4EF006503C5 /* SGRBookDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRBookDetailViewController.h; sourceTree = "<group>"; };
+		3CEE012C21A3A4EF006503C5 /* SGRBookDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRBookDetailViewController.m; sourceTree = "<group>"; };
+		3CEE012D21A3A4EF006503C5 /* SGRBookDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRBookDetailViewController.xib; sourceTree = "<group>"; };
+		3CEE013021A3A6F3006503C5 /* SGRBookHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRBookHeaderCell.h; sourceTree = "<group>"; };
+		3CEE013121A3A6F3006503C5 /* SGRBookHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRBookHeaderCell.m; sourceTree = "<group>"; };
+		3CEE013221A3A6F3006503C5 /* SGRBookHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRBookHeaderCell.xib; sourceTree = "<group>"; };
+		3CEE013521A3AEB5006503C5 /* LZDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDButton.h; sourceTree = "<group>"; };
+		3CEE013621A3AEB5006503C5 /* LZDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDButton.m; sourceTree = "<group>"; };
+		3CEE013821A3B2D8006503C5 /* SGRLibraryCollectionInforCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGRLibraryCollectionInforCell.h; sourceTree = "<group>"; };
+		3CEE013921A3B2D8006503C5 /* SGRLibraryCollectionInforCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGRLibraryCollectionInforCell.m; sourceTree = "<group>"; };
+		3CEE013A21A3B2D8006503C5 /* SGRLibraryCollectionInforCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGRLibraryCollectionInforCell.xib; sourceTree = "<group>"; };
+		3CEE013D21A3B9A7006503C5 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		3CEE013E21A3B9A8006503C5 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
 		406DA67B828789A77B438EF8 /* Pods-SwanGooseReading.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwanGooseReading.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwanGooseReading/Pods-SwanGooseReading.release.xcconfig"; sourceTree = "<group>"; };
 		6CE50930A893B9B2AC41D8FC /* libPods-SwanGooseReading.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwanGooseReading.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB24E698B0EE2EFEE3AFC8E0 /* Pods-SwanGooseReading.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwanGooseReading.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwanGooseReading/Pods-SwanGooseReading.debug.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +294,14 @@
 				3C3CC652219D216A007F7C44 /* Sources */,
 				3C3CC65C219D240F007F7C44 /* CALayer+LZDLayColor.h */,
 				3C3CC65D219D240F007F7C44 /* CALayer+LZDLayColor.m */,
+				3CEE013521A3AEB5006503C5 /* LZDButton.h */,
+				3CEE013621A3AEB5006503C5 /* LZDButton.m */,
+				3CEE013E21A3B9A8006503C5 /* NSString+Helper.h */,
+				3CEE013D21A3B9A7006503C5 /* NSString+Helper.m */,
+				3CEE010621A25DA7006503C5 /* XLsn0wLoop.h */,
+				3CEE010721A25DA7006503C5 /* XLsn0wLoop.m */,
+				3CEE00FF21A24AA9006503C5 /* TopUpVC.h */,
+				3CEE00FE21A24AA8006503C5 /* TopUpVC.m */,
 				3C3CC68D219D2695007F7C44 /* MD5Tool.h */,
 				3C3CC68E219D2695007F7C44 /* MD5Tool.m */,
 				3C3CC68F219D2696007F7C44 /* UploadImage.h */,
@@ -234,16 +361,80 @@
 		3C3CC67D219D25E9007F7C44 /* 二维码 */ = {
 			isa = PBXGroup;
 			children = (
+				3C3CC682219D25E9007F7C44 /* SGQRCodeTool.h */,
 				3C3CC67E219D25E9007F7C44 /* SGQRCodeTool.m */,
 				3C3CC67F219D25E9007F7C44 /* SGScanningQRCodeView.h */,
-				3C3CC680219D25E9007F7C44 /* SGScanningQRCodeVC.h */,
 				3C3CC681219D25E9007F7C44 /* SGScanningQRCodeView.m */,
-				3C3CC682219D25E9007F7C44 /* SGQRCodeTool.h */,
+				3C3CC680219D25E9007F7C44 /* SGScanningQRCodeVC.h */,
 				3C3CC683219D25E9007F7C44 /* SGScanningQRCodeVC.m */,
 			);
 			name = "二维码";
 			path = "SwanGooseReading/二维码";
 			sourceTree = SOURCE_ROOT;
+		};
+		3C3CC699219E545B007F7C44 /* LoginAndRegistVC */ = {
+			isa = PBXGroup;
+			children = (
+				3C3CC69A219E5528007F7C44 /* SGRRegistViewController.h */,
+				3C3CC69B219E5528007F7C44 /* SGRRegistViewController.m */,
+				3C3CC69C219E5528007F7C44 /* SGRRegistViewController.xib */,
+				3C3CC6A0219E6FA9007F7C44 /* SGRBindCardViewController.h */,
+				3C3CC6A1219E6FA9007F7C44 /* SGRBindCardViewController.m */,
+				3C3CC6A2219E6FA9007F7C44 /* SGRBindCardViewController.xib */,
+			);
+			path = LoginAndRegistVC;
+			sourceTree = "<group>";
+		};
+		3C3CC6AF219E9173007F7C44 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				3C3CC6A5219E76F7007F7C44 /* SGRHomeViewController.h */,
+				3C3CC6A6219E76F7007F7C44 /* SGRHomeViewController.m */,
+				3C3CC6A7219E76F7007F7C44 /* SGRHomeViewController.xib */,
+				3CEE011C21A296BC006503C5 /* SGRHtmlDetailViewController.h */,
+				3CEE011D21A296BC006503C5 /* SGRHtmlDetailViewController.m */,
+				3C1B80E321A3FF4000FB4CD0 /* SGRSettlementViewController.h */,
+				3C1B80E421A3FF4000FB4CD0 /* SGRSettlementViewController.m */,
+				3C1B80E521A3FF4000FB4CD0 /* SGRSettlementViewController.xib */,
+				3CEE012121A2AE4C006503C5 /* SGRHotSearchListViewController.h */,
+				3CEE012221A2AE4C006503C5 /* SGRHotSearchListViewController.m */,
+				3CEE012321A2AE4C006503C5 /* SGRHotSearchListViewController.xib */,
+				3CEE012621A39B99006503C5 /* SGRSearchResultViewController.h */,
+				3CEE012721A39B99006503C5 /* SGRSearchResultViewController.m */,
+				3CEE012821A39B99006503C5 /* SGRSearchResultViewController.xib */,
+				3CEE012B21A3A4EF006503C5 /* SGRBookDetailViewController.h */,
+				3CEE012C21A3A4EF006503C5 /* SGRBookDetailViewController.m */,
+				3CEE012D21A3A4EF006503C5 /* SGRBookDetailViewController.xib */,
+				3CEE011321A26A5D006503C5 /* cell */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		3C3CC6B0219E917C007F7C44 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				3C3CC6AA219E770D007F7C44 /* SGRMineViewController.h */,
+				3C3CC6AB219E770D007F7C44 /* SGRMineViewController.m */,
+				3C3CC6AC219E770D007F7C44 /* SGRMineViewController.xib */,
+				3CEE00E4219EB932006503C5 /* SGRBorrowedBookViewController.h */,
+				3CEE00E5219EB932006503C5 /* SGRBorrowedBookViewController.m */,
+				3CEE00E6219EB932006503C5 /* SGRBorrowedBookViewController.xib */,
+				3CEE010921A25E4E006503C5 /* SGRBorrowHistoryViewController.h */,
+				3CEE010A21A25E4E006503C5 /* SGRBorrowHistoryViewController.m */,
+				3CEE010B21A25E4E006503C5 /* SGRBorrowHistoryViewController.xib */,
+				3CEE00EF219EBF70006503C5 /* SGRSettingViewController.h */,
+				3CEE00F0219EBF70006503C5 /* SGRSettingViewController.m */,
+				3CEE00F1219EBF70006503C5 /* SGRSettingViewController.xib */,
+				3CEE00F4219EC738006503C5 /* SGRSetNickNameViewController.h */,
+				3CEE00F5219EC738006503C5 /* SGRSetNickNameViewController.m */,
+				3CEE00F6219EC738006503C5 /* SGRSetNickNameViewController.xib */,
+				3CEE00F921A244DC006503C5 /* SGRSetNewPassWordViewController.h */,
+				3CEE00FA21A244DC006503C5 /* SGRSetNewPassWordViewController.m */,
+				3CEE00FB21A244DC006503C5 /* SGRSetNewPassWordViewController.xib */,
+				3CEE00E9219EB99D006503C5 /* cells */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
 		};
 		3CEDCF44219D14FC00019CB5 = {
 			isa = PBXGroup;
@@ -270,6 +461,9 @@
 		3CEDCF4F219D14FC00019CB5 /* SwanGooseReading */ = {
 			isa = PBXGroup;
 			children = (
+				3C3CC6AF219E9173007F7C44 /* 首页 */,
+				3C3CC6B0219E917C007F7C44 /* 我的 */,
+				3C3CC699219E545B007F7C44 /* LoginAndRegistVC */,
 				3C3CC646219D1BC9007F7C44 /* Main */,
 				3CEDCF50219D14FC00019CB5 /* AppDelegate.h */,
 				3CEDCF51219D14FC00019CB5 /* AppDelegate.m */,
@@ -283,6 +477,7 @@
 				3CEDCF5F219D14FD00019CB5 /* main.m */,
 				3C3CC645219D1989007F7C44 /* PrefixHeader.pch */,
 				3C3CC64D219D1CA8007F7C44 /* Utils.h */,
+				3C3CC69F219E68E8007F7C44 /* LZDEnum.h */,
 				3C3CC692219D3D7C007F7C44 /* sound.caf */,
 			);
 			path = SwanGooseReading;
@@ -304,6 +499,42 @@
 				3CEDCF76219D14FD00019CB5 /* Info.plist */,
 			);
 			path = SwanGooseReadingUITests;
+			sourceTree = "<group>";
+		};
+		3CEE00E9219EB99D006503C5 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE00EA219EB9C3006503C5 /* SGRBorrowedBookCell.h */,
+				3CEE00EB219EB9C3006503C5 /* SGRBorrowedBookCell.m */,
+				3CEE00EC219EB9C3006503C5 /* SGRBorrowedBookCell.xib */,
+				3CEE010121A252F9006503C5 /* SGRSetTableViewCell.h */,
+				3CEE010221A252F9006503C5 /* SGRSetTableViewCell.m */,
+				3CEE010321A252F9006503C5 /* SGRSetTableViewCell.xib */,
+				3CEE010E21A25F93006503C5 /* SGRBorrowHistoryCell.h */,
+				3CEE010F21A25F93006503C5 /* SGRBorrowHistoryCell.m */,
+				3CEE011021A25F93006503C5 /* SGRBorrowHistoryCell.xib */,
+				3C1B80ED21A4FE7500FB4CD0 /* SGRUIImagePickerController.h */,
+				3C1B80EE21A4FE7500FB4CD0 /* SGRUIImagePickerController.m */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		3CEE011321A26A5D006503C5 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE011921A282F9006503C5 /* SGRHomeSectionHeaderView.h */,
+				3CEE011A21A282F9006503C5 /* SGRHomeSectionHeaderView.m */,
+				3CEE011421A26AD1006503C5 /* SGRQRcodeCell.h */,
+				3CEE011521A26AD1006503C5 /* SGRQRcodeCell.m */,
+				3CEE011621A26AD1006503C5 /* SGRQRcodeCell.xib */,
+				3CEE013021A3A6F3006503C5 /* SGRBookHeaderCell.h */,
+				3CEE013121A3A6F3006503C5 /* SGRBookHeaderCell.m */,
+				3CEE013221A3A6F3006503C5 /* SGRBookHeaderCell.xib */,
+				3CEE013821A3B2D8006503C5 /* SGRLibraryCollectionInforCell.h */,
+				3CEE013921A3B2D8006503C5 /* SGRLibraryCollectionInforCell.m */,
+				3CEE013A21A3B2D8006503C5 /* SGRLibraryCollectionInforCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 		FC948502CAEF803EBD695233 /* Frameworks */ = {
@@ -387,6 +618,7 @@
 		3CEDCF45219D14FC00019CB5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SGR;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Test;
 				TargetAttributes = {
@@ -430,9 +662,28 @@
 			files = (
 				3CEDCF5D219D14FD00019CB5 /* LaunchScreen.storyboard in Resources */,
 				3CEDCF5A219D14FD00019CB5 /* Assets.xcassets in Resources */,
+				3CEE00FD21A244DC006503C5 /* SGRSetNewPassWordViewController.xib in Resources */,
+				3CEE011221A25F93006503C5 /* SGRBorrowHistoryCell.xib in Resources */,
+				3CEE010521A252F9006503C5 /* SGRSetTableViewCell.xib in Resources */,
+				3CEE00E8219EB932006503C5 /* SGRBorrowedBookViewController.xib in Resources */,
+				3CEE012521A2AE4C006503C5 /* SGRHotSearchListViewController.xib in Resources */,
+				3CEE013C21A3B2D8006503C5 /* SGRLibraryCollectionInforCell.xib in Resources */,
+				3C1B80E721A3FF4000FB4CD0 /* SGRSettlementViewController.xib in Resources */,
+				3CEE00F8219EC738006503C5 /* SGRSetNickNameViewController.xib in Resources */,
 				3C3CC697219D3F14007F7C44 /* WMLoginViewController.xib in Resources */,
+				3CEE012F21A3A4EF006503C5 /* SGRBookDetailViewController.xib in Resources */,
+				3CEE010D21A25E4E006503C5 /* SGRBorrowHistoryViewController.xib in Resources */,
 				3C3CC693219D3D7C007F7C44 /* sound.caf in Resources */,
+				3CEE013421A3A6F3006503C5 /* SGRBookHeaderCell.xib in Resources */,
+				3C3CC6AE219E770D007F7C44 /* SGRMineViewController.xib in Resources */,
+				3C3CC6A4219E6FA9007F7C44 /* SGRBindCardViewController.xib in Resources */,
+				3CEE011821A26AD1006503C5 /* SGRQRcodeCell.xib in Resources */,
+				3CEE012A21A39B99006503C5 /* SGRSearchResultViewController.xib in Resources */,
 				3CEDCF58219D14FC00019CB5 /* Main.storyboard in Resources */,
+				3C3CC6A9219E76F7007F7C44 /* SGRHomeViewController.xib in Resources */,
+				3C3CC69E219E5528007F7C44 /* SGRRegistViewController.xib in Resources */,
+				3CEE00F3219EBF70006503C5 /* SGRSettingViewController.xib in Resources */,
+				3CEE00EE219EB9C3006503C5 /* SGRBorrowedBookCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,30 +749,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CEE013721A3AEB5006503C5 /* LZDButton.m in Sources */,
+				3CEE013B21A3B2D8006503C5 /* SGRLibraryCollectionInforCell.m in Sources */,
 				3CEDCF55219D14FC00019CB5 /* ViewController.m in Sources */,
 				3C3CC686219D25E9007F7C44 /* SGScanningQRCodeVC.m in Sources */,
 				3C3CC67B219D25E4007F7C44 /* UIImage+WBScaleImage.m in Sources */,
 				3C3CC691219D2696007F7C44 /* MD5Tool.m in Sources */,
 				3C3CC66B219D2526007F7C44 /* BRPlaceholderTextView.m in Sources */,
 				3C3CC685219D25E9007F7C44 /* SGScanningQRCodeView.m in Sources */,
+				3CEE013321A3A6F3006503C5 /* SGRBookHeaderCell.m in Sources */,
 				3CEDCF60219D14FD00019CB5 /* main.m in Sources */,
 				3CEDCF52219D14FC00019CB5 /* AppDelegate.m in Sources */,
+				3C3CC6A3219E6FA9007F7C44 /* SGRBindCardViewController.m in Sources */,
 				3C3CC67C219D25E4007F7C44 /* UIView+Extension.m in Sources */,
+				3C3CC69D219E5528007F7C44 /* SGRRegistViewController.m in Sources */,
 				3C3CC663219D246D007F7C44 /* MBManager.m in Sources */,
+				3CEE011121A25F93006503C5 /* SGRBorrowHistoryCell.m in Sources */,
 				3C3CC65E219D240F007F7C44 /* CALayer+LZDLayColor.m in Sources */,
 				3C3CC690219D2696007F7C44 /* UploadImage.m in Sources */,
+				3CEE010C21A25E4E006503C5 /* SGRBorrowHistoryViewController.m in Sources */,
 				3C3CC651219D1D11007F7C44 /* UIImage+Tool.m in Sources */,
+				3CEE00ED219EB9C3006503C5 /* SGRBorrowedBookCell.m in Sources */,
+				3CEE012421A2AE4C006503C5 /* SGRHotSearchListViewController.m in Sources */,
+				3CEE011F21A296BC006503C5 /* SGRHtmlDetailViewController.m in Sources */,
 				3C3CC684219D25E9007F7C44 /* SGQRCodeTool.m in Sources */,
+				3CEE011B21A282F9006503C5 /* SGRHomeSectionHeaderView.m in Sources */,
 				3C3CC698219D3F14007F7C44 /* WMLoginViewController.m in Sources */,
 				3C3CC64C219D1BF3007F7C44 /* WMNavigationViewController.m in Sources */,
+				3C3CC6AD219E770D007F7C44 /* SGRMineViewController.m in Sources */,
 				3C3CC689219D2654007F7C44 /* Manager.m in Sources */,
 				3C3CC67A219D25E4007F7C44 /* UIButton+ImageTitleSpacing.m in Sources */,
+				3CEE010421A252F9006503C5 /* SGRSetTableViewCell.m in Sources */,
+				3CEE00F7219EC738006503C5 /* SGRSetNickNameViewController.m in Sources */,
+				3C1B80EF21A4FE7500FB4CD0 /* SGRUIImagePickerController.m in Sources */,
+				3C1B80E621A3FF4000FB4CD0 /* SGRSettlementViewController.m in Sources */,
+				3CEE010021A24AA9006503C5 /* TopUpVC.m in Sources */,
+				3CEE00E7219EB932006503C5 /* SGRBorrowedBookViewController.m in Sources */,
 				3C3CC667219D24BB007F7C44 /* WMCommentMethod.m in Sources */,
 				3C3CC664219D246D007F7C44 /* MBProgressHUD.m in Sources */,
+				3C3CC6A8219E76F7007F7C44 /* SGRHomeViewController.m in Sources */,
+				3CEE010821A25DA7006503C5 /* XLsn0wLoop.m in Sources */,
 				3C3CC658219D216A007F7C44 /* SAMKeychain.m in Sources */,
+				3CEE011721A26AD1006503C5 /* SGRQRcodeCell.m in Sources */,
+				3CEE012E21A3A4EF006503C5 /* SGRBookDetailViewController.m in Sources */,
 				3C3CC679219D25E4007F7C44 /* UIColor+Hex.m in Sources */,
 				3C3CC657219D216A007F7C44 /* SAMKeychainQuery.m in Sources */,
+				3CEE00F2219EBF70006503C5 /* SGRSettingViewController.m in Sources */,
 				3C3CC64B219D1BF3007F7C44 /* WMTabbarController.m in Sources */,
+				3CEE00FC21A244DC006503C5 /* SGRSetNewPassWordViewController.m in Sources */,
+				3CEE012921A39B99006503C5 /* SGRSearchResultViewController.m in Sources */,
+				3CEE013F21A3B9A8006503C5 /* NSString+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +838,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3CEDCF57219D14FC00019CB5 /* Base */,
+				3C1B80F021A501F000FB4CD0 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -569,6 +847,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3CEDCF5C219D14FD00019CB5 /* Base */,
+				3C1B80F121A501F000FB4CD0 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -580,6 +859,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -639,6 +919,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
